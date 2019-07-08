@@ -3,12 +3,39 @@ import React, { Component } from 'react';
 class Header extends Component {
   render() {
     return (
-        <div className="header">
+
+      <nav className="navbar">
+        <a className="navbar-logo" href="#top">
+          <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/597/2142567597_cdb67e32-c819-41d3-aff0-5e8bd04bcc30.png?cb=1562626429" alt="header_logo_img"/>
+        </a>
+
+      </nav>
+
+
+
+    );
+  }
+}
+
+export default Header;
+
+
+
+
+
+
+
+
+
+
+
+
+/*  <div className="header">
           <div className="header_container">
             <div style={{ display:'flex'}}>
               <div className="header_logo">
-                <a href="/">
-                  <img src="https://cdn-themes.thinkific.com/34977/185711/OJC7CQxTP2z6m2xnybKb_sanarflix-logo-new.png" alt="header_logo_img"/>
+                <a href="#top">
+                  <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/597/2142567597_cdb67e32-c819-41d3-aff0-5e8bd04bcc30.png?cb=1562626429" alt="header_logo_img"/>
                 </a>
               </div>
               <div className="header_navigation_buttons">
@@ -26,20 +53,4 @@ class Header extends Component {
               </div>
             </div>
           </div>
-          <div className="header_container">
-            <div className="header_user_info">
-              <div className="header_sign_join"></div>
-              <a href="/" className="btn_sign header_sign_in_button">
-                <span className="header_text-hollow">Entrar</span>
-              </a>
-              <a href="https://www.sanarflix.com.br/assine" className="btn_sign header_sign_up_button">
-                <span className="header_text-hollow">Assine</span>
-              </a>
-            </div>
-          </div>
-        </div>
-    );
-  }
-}
-
-export default Header;
+        </div> */
