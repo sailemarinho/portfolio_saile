@@ -1,0 +1,24 @@
+.hero {
+  height: 100vh;
+  width: 100%;
+  padding: 8% 0;
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://source.unsplash.com/random);
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  & h1 {
+    font-size: 4em;
+  }
+  & p {
+    font-size: 2em;
+    opacity: .9;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+
+  }
+}
+
