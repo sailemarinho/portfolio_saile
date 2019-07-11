@@ -14,12 +14,17 @@
   h1 {
     font-size: 2em;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    line-height: 3;
   }
 
   p {
     font-size: 1em;
     opacity: .9;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    width: 50%;
+    margin-left: 25%;
   }
 }
 
